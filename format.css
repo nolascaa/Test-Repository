@@ -1,0 +1,88 @@
+body{
+    background-image: url(images/dark_wood.jpg);
+    font-family: 'League Spartan', sans-serif;
+    }
+
+h1 {
+    color: aliceblue;
+    background-color: darkcyan;
+    padding: 10px;
+    border-radius: 4px
+}
+
+#parent{
+    background: #444448;
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;/*centers region in browser*/
+    text-align: center;/*centers content in a region*/
+    padding: 10px;
+    box-sizing: border-box;/*compensates for padding enlargement*/
+    box-shadow: #111111 10px 10px 10px;
+    }
+
+#header{
+    background: #5c5c68;
+    width: 100%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;/*centers region in browser*/
+    text-align: center;/*centers content in a region*/
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    }
+
+#content{
+    background: #5c5c68;
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;/*centers region in browser*/
+    text-align: center;/*centers content in a region*/
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 10px;
+    }
+
+#footer{
+    background: #5c5c68;
+    width: 100%;
+    height: 6%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;/*centers region in browser*/
+    text-align: center;/*centers content in a region*/
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+    border-radius: 4px;
+    padding: 10px;
+    }
+
+h1{
+    margin-top: 0px;
+    font-size: 2.4em;
+    }
+
+.pic1{
+    width: 40%;
+    border-radius: 4px;
+    box-shadow: #333333 5px 5px 5px;
+    }
+
+.text1{
+    font-size: 1.0em;
+    color: #cccccc;
+    line-height: 1.2em;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    }
+
+a:link{text-decoration: none; color: #cccccc; margin: 10px; background: #bb2e60; padding: 6px; border-radius: 4px; box-shadow: #333333 5px 5px 5px;}
+a:visited{text-decoration: none; color: #cccccc; margin: 10px; background: #bb2e60; padding: 6px; border-radius: 4px; box-shadow: #333333 5px 5px 5px;}
+a:active{text-decoration: none; color: #cccccc; margin: 10px; background: #bb2e60; padding: 6px; border-radius: 4px; box-shadow: #333333 5px 5px 5px;}
+a:hover{text-decoration: none; color: #ffffff; margin: 10px; background: #444444; padding: 6px; border-radius: 4px; box-shadow: #333333 5px 5px 5px;}
